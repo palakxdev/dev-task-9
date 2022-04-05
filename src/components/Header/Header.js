@@ -20,7 +20,7 @@ const Header = () => {
             </div>
             <Review></Review>
             <div className='text-center'>
-            <Link to='/reviews'><button className='rounded-full review-btn py-2 px-5 m-3 tracking-wide shadow-md'>Show All Review</button></Link>
+            <Link to='/reviews'><button className='rounded-full review-btn py-2 px-5 m-3 tracking-wide shadow-lg'>Show All Review</button></Link>
             </div>
         </div>
     );

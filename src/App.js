@@ -4,6 +4,7 @@ import Blog from './components/Blog/Blog';
 import Dashboard from './components/Dashboard/Dashboard';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
+import NotFound from './components/NotFound/NotFound';
 import Review from './components/Review/Review';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/reviews' element={<Review></Review>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
