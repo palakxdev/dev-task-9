@@ -1,5 +1,5 @@
 import useReviews from '../../hooks/useReviews';
-import CustomerReview from '../customerReview/CustomerReview';
+import CustomerReview from '../../hooks/CustomerReview';
 import './Review.css'
 
 const Review = () => {
@@ -14,7 +14,6 @@ const Review = () => {
                 reviews.map(review => <CustomerReview key={review.id} review={review}></CustomerReview>)
             }
             </div>
-
         </div>
     );
 };

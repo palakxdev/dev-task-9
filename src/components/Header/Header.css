@@ -16,3 +16,9 @@
     background-color: #EB7025;
     transition: 0.2s;
 }
+
+.review-btn {
+    color: white;
+    background-color: #EB7025;
+    border: 1px solid #BDE2DE;
+}
