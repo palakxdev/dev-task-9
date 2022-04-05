@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "img": "https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "rating": 5,
+        "comment": "Very good product and excellent quality. The service from the supplier is excellent, very friendly, I would gladly place an order again."
+    },
+    {
+        "id": 2,
+        "name": "Julie Hamilton",
+        "img": "https://images.pexels.com/photos/3671083/pexels-photo-3671083.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "rating": 5,
+        "comment": "I loved them. the case is very practical and design of the headphone is very ergonomic. I recommend buying from this store , plus excellent customer service."
+    },
+    {
+        "id": 3,
+        "name": "Bernard Keller",
+        "img": "https://images.pexels.com/photos/7322232/pexels-photo-7322232.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "rating": 4,
+        "comment": "The package was very nice and they look really good. However, I could still hear people talking. I gave a four star because i immediately got a headache when I turned on the noise cancelling part."
+    },
+    {
+        "id": 4,
+        "name": "Louis Burton",
+        "img": "https://images.pexels.com/photos/4350178/pexels-photo-4350178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "rating": 5,
+        "comment": "I loved the headphones, I hope to place a bigger order next time"
+    },
+    {
+        "id": 5,
+        "name": "Lynn Peters",
+        "img": "https://images.pexels.com/photos/6147118/pexels-photo-6147118.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "rating": 5,
+        "comment": "Everything is good, the price and quality are compatible."
+    }
+]

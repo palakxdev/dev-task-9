@@ -1,0 +1,18 @@
+.header-container {
+    background-color: #BDE2DE;
+}
+
+.title-span {
+    color: #EB7025;
+}
+
+.header-btn {
+    background-color: #BDE2DE;
+    border: 1px solid #EB7025;
+}
+
+.header-btn:hover {
+    color: #ffffff;
+    background-color: #EB7025;
+    transition: 0.2s;
+}

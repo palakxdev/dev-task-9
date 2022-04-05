@@ -1,0 +1,12 @@
+.navbar-container {
+    background-color: #BDE2DE;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+ul li:hover {
+    color: #EB7025;
+    transition: 0.3s;
+}
