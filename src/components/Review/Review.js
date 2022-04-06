@@ -5,11 +5,13 @@ import './Review.css'
 const Review = () => {
     const [reviews, setReviews] = useReviews();
 
+    
+
     return (
         <div>
-            <h2 className='text-3xl text-center m-5'>Our Customer Reviews: {reviews.length}</h2>
+            <h2 className='text-3xl text-center m-5 text-orange-500'>Our Customer Reviews: {reviews.length}</h2>
 
-            <div className='grid lg:grid-cols-3 gap-3 m-6'>
+            <div className='container mx-auto grid lg:grid-cols-3 gap-3'>
             {
                 reviews.map(review => <CustomerReview key={review.id} review={review}></CustomerReview>)
             }

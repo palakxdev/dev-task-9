@@ -7,7 +7,7 @@ const Blog = () => {
                 This is our blog.
             </h2>
 
-            <div className="container mx-auto">
+            <div className="container mx-auto p-3">
                 <h2 className='text-2xl text-orange-500'>What is context API?</h2> <br />
                 <p>In react app component we can sent data one component to another component by prop drilling method. But sometimes we have some secured data that's we don't want to share with the other component. We have a solution for this problem. In react version 16.3 we got a great opportunity to share states across all the react app. That is CONTEXT API.</p>
 

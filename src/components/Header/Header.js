@@ -1,10 +1,14 @@
 import React from 'react';
 import './Header.css';
 import headphone from '../images/headphone.png';
-import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
+import HomeReviewContainer from '../HomeReviewContainer/HomeReviewContainer';
 
 const Header = () => {
+    const [reviews, setReviews] = useReviews();
+    const loadedReviews = reviews.slice(0, 3);
+    
     return (
         <div>
             <div className="header-container p-5 lg:flex items-center justify-between">
@@ -18,10 +22,16 @@ const Header = () => {
                     <img src={headphone} alt="" />
                 </div>
             </div>
-            <Review></Review>
-            <div className='text-center'>
-            <Link to='/reviews'><button className='rounded-full review-btn py-2 px-5 m-3 tracking-wide shadow-lg'>Show All Review</button></Link>
+
+            <div className="container mx-auto grid lg:grid-cols-3 gap-3 p-5">
+                {
+                    loadedReviews.map(review => <HomeReviewContainer key={review.id} review={review}></HomeReviewContainer>)
+                }
             </div>
+            <div className='text-center'>
+                <Link to='/reviews'><button className='rounded-full review-btn py-2 px-5 m-3 tracking-wide shadow-lg'>Show All Review</button></Link>
+            </div>
+
         </div>
     );
 };
