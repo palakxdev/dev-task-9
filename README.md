@@ -1,7 +1,7 @@
 
 # Gadget-Analysis
 
-My live site link: [Click Here](https://gadget-analysis.netlify.app/)
+## LIVE URL: [CLICK HERE](https://gadget-analysis.netlify.app/)
 
 ## Project Description:
 - In this project all the components are into the components folder.
